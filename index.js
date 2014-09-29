@@ -2,15 +2,17 @@
 
 'use strict';
 
+var indexOf = require('lodash-node/compat/arrays/indexOf');
+
 var sequence = function (tasks, names, results, missing, recursive, nest) {
   names.forEach(function (name) {
-    if (results.indexOf(name) !== -1) {
+    if (indexOf(results, name) !== -1) {
       return; // de-dup results
     }
     var node = tasks[name];
     if (!node) {
       missing.push(name);
-    } else if (nest.indexOf(name) > -1) {
+    } else if (indexOf(nest, name) > -1) {
       nest.push(name);
       recursive.push(nest.slice(0));
       nest.pop(name);
