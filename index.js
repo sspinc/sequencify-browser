@@ -3,9 +3,10 @@
 'use strict';
 
 var indexOf = require('lodash-node/compat/arrays/indexOf');
+var forEach = require('lodash-node/compat/collections/forEach');
 
 var sequence = function (tasks, names, results, missing, recursive, nest) {
-  names.forEach(function (name) {
+  forEach(names, function (name) {
     if (indexOf(results, name) !== -1) {
       return; // de-dup results
     }
