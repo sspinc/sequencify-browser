@@ -4,7 +4,7 @@
   "description": "A module for sequencing tasks and dependencies in the browser",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/gergelyke/sequencify-browser/issues"
   },
-  "homepage": "https://github.com/gergelyke/sequencify-browser"
+  "homepage": "https://github.com/gergelyke/sequencify-browser",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
 }
