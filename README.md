@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gergelyke/sequencify-browser.png)](https://travis-ci.org/gergelyke/sequencify-browser)
+
 [![browser support](https://ci.testling.com/gergelyke/sequencify-browser.png)
 ](https://ci.testling.com/gergelyke/sequencify-browser)
 
