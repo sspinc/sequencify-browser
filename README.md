@@ -14,7 +14,7 @@ npm install sequencify-browser
 ### Usage
 
 ```javascript
-var sequencify = require('sequencify');
+var sequencify = require('sequencify-browser');
 
 var items = {
   a: {
