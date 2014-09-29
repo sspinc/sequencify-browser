@@ -4,7 +4,6 @@
 
 var sequencify = require('./');
 var should = require('chai').should();
-require('mocha');
 
 describe('task sequencing', function() {
   describe('sequencify()', function() {
