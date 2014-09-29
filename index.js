@@ -2,9 +2,16 @@
 
 'use strict';
 
+/**
+ * Module dependencies.
+ */
+
 var indexOf = require('lodash-node/compat/arrays/indexOf');
 var forEach = require('lodash-node/compat/collections/forEach');
 
+/**
+ * Sequencify tasks
+ */
 var sequence = function (tasks, names, results, missing, recursive, nest) {
   forEach(names, function (name) {
     if (indexOf(results, name) !== -1) {
@@ -26,8 +33,15 @@ var sequence = function (tasks, names, results, missing, recursive, nest) {
   });
 };
 
-// tasks: object with keys as task names
-// names: array of task names
+/**
+ * Return sequencified task arrays
+ *
+ * @param {Array} tasks
+ * @param {Array} names
+ *
+ * @return {Object}
+ * @api public
+ */
 module.exports = function (tasks, names) {
   var results = []; // the final sequence
   var missing = []; // missing tasks
