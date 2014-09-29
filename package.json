@@ -15,6 +15,12 @@
   "bugs": {
     "url": "https://github.com/gergelyke/sequencify-browser/issues"
   },
+  "keywords": [
+    "task",
+    "sequence",
+    "sequencer",
+    "compose"
+  ],
   "homepage": "https://github.com/gergelyke/sequencify-browser",
   "devDependencies": {
     "chai": "^1.9.1",
