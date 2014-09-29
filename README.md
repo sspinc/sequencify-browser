@@ -1,5 +1,5 @@
-[![browser support](https://ci.testling.com/$YOUR_USERNAME_HERE/max-by.png)
-](https://ci.testling.com/$YOUR_USERNAME_HERE/max-by)
+[![browser support](https://ci.testling.com/gergelyke/sequencify-browser.png)
+](https://ci.testling.com/gergelyke/sequencify-browser)
 
 ## Sequencify-browser
 
