@@ -6,8 +6,8 @@
  * Module dependencies.
  */
 
-var indexOf = require('lodash-node/compat/arrays/indexOf');
-var forEach = require('lodash-node/compat/collections/forEach');
+var indexOf = require('lodash-compat/array/indexOf');
+var forEach = require('lodash-compat/collection/forEach');
 
 /**
  * Sequencify tasks
